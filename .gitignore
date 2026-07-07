@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# VS Code extension build output
+piet/vscode-piet/node_modules/
+piet/vscode-piet/out/
+piet/vscode-piet/out-test/
+piet/vscode-piet/*.vsix
+piet/vscode-piet
