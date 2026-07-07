@@ -1,0 +1,35 @@
+oom // input
+moO // move to cell 2
+moO // move to cell 3
+MoO
+mOo
+mOo
+MOO
+    moO // move to second cell
+    moO // move to third cell
+    MOO
+        moO MoO //move to fourth cell and increase
+        moO MoO // move to fifth cell and increase
+        mOo mOo MOo// move back to third cell and decrease
+    moo
+    moO moO // move to fifth cell
+    MOO
+        mOo mOo MoO // move to cell 3 and increment
+        moO moO MOo // move to cell 5 and decrement
+    moo
+    mOo mOo mOo // return to cell 2
+    MOO
+        moO MoO // add value of second cell to third cell
+        mOo MOo//return to cell 2 and decrement
+    moo 
+    moO moO // move to cell 4
+    MOO
+        mOo mOo// move to cell 2
+        MoO
+        moO moO //move back to cell 4
+        MOo
+    moo
+    mOo mOo mOo // return to cell 1
+    MOo // decrease cell 1
+moo
+moO OOM
