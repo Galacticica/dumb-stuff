@@ -1,0 +1,37 @@
+Fibonacci Numbers with Caramel Sauce.
+This recipe prints the first N Fibonacci numbers, where N is the initial
+amount of flour. It uses an auxiliary recipe for caramel sauce to define
+Fibonacci numbers recursively. This is a corrected version of the classic
+recipe from the Chef specification, which returns 1 for every call and
+never actually recurses as published.
+
+Ingredients.
+5 g flour
+250 g butter
+
+Method.
+Sift the flour. Put flour into mixing bowl. Serve with caramel sauce. Stir the
+mixing bowl for 1 minute. Fold butter into the mixing bowl. Rub the flour until
+sifted. Pour contents of the mixing bowl into the baking dish.
+
+Serves 1.
+
+Caramel Sauce.
+
+Ingredients.
+0 g count
+0 g result
+0 g temp
+1 g one
+
+Method.
+Fold count into mixing bowl. Clean mixing bowl. Put count into mixing bowl.
+Remove one from mixing bowl. Fold temp into mixing bowl. Simmer the temp. Put
+count into mixing bowl. Remove one from mixing bowl. Remove one from mixing
+bowl. Fold temp into mixing bowl. Heat the temp. Put count into mixing bowl.
+Remove one from mixing bowl. Serve with caramel sauce. Fold result into mixing
+bowl. Clean mixing bowl. Put count into mixing bowl. Remove one from mixing
+bowl. Remove one from mixing bowl. Serve with caramel sauce. Fold count into
+mixing bowl. Clean mixing bowl. Put count into mixing bowl. Add result.
+Refrigerate. Toast until heated. Clean mixing bowl. Put one into mixing bowl.
+Refrigerate. Bake until simmered. Clean mixing bowl. Put one into mixing bowl.
