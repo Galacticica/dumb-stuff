@@ -1,26 +1,27 @@
-S s s t	lf(push_1_to_stack)
-t	lf
-T	t	(read_number_and_store_in_heap[1])s s t	lf
-(Push0tostack)s s s t	lf
-(Push1tostack)lf
-S s s s s lf
-(createlabelsss)s s s t	lf
-(Push1tostack)t	t	t	(retreivefromheap)s s s t	lf
-(Push1tostack)t	s s t	(subtractfromn)s lf
-S (dup)lf
-T	s t	t	t	lf
-(Jumptottt)s s s t	lf
-(Push_1_to_stack)s lf
-T	(swaptoptwostackitems))t	t	s (storeinheap)s lf
-T	(swaptoptwoitems)s t	s s t	lf
-(Copydepthn=1)t	s s s (add)s lf
-S (dup)t	lf
-S t	(outputnum)lf
-S lf
-S s s lf
-(Jumpbacktolabelsss)lf
-S s t	t	t	lf
-(Maketttlabel)lf
-Lf
-Lf
-(Endprogram)
+(Fibonacci_in_Whitespace)(reads_N_prints_first_N_terms_1_1_2_3_5_one_per_line)(read_N_into_heap[1])   	
+	
+		(seed_a=1)   	
+(seed_b=0)   
+(label_LOOP)
+   
+(push_addr_1)   	
+(retrieve_N)			(dup) 
+ (jz_END_when_N==0)
+	 	
+(push_1)   	
+(N_minus_1)	  	(push_addr_1)   	
+(swap) 
+	(store_N-1)		 (swap_a_b) 
+	(copy_depth_1) 	  	
+(add)	   (dup) 
+ (output_number)	
+ 	(push_newline_10)   	 	 
+(output_char_sep)	
+  (jmp_LOOP)
+ 
+ 
+(label_END)
+  	
+(end_program)
+
+
