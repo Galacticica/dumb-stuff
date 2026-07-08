@@ -54,6 +54,14 @@ uv run python whitespace/whitespace.py whitespace/<program>.ws
 Only spaces, tabs, and newlines are significant; any other characters in the
 file are treated as comments.
 
+## Rockstar
+
+Interpreted by `rockstar/rockstar.py`. Pass the path to a `.rock` file:
+
+```
+uv run python rockstar/rockstar.py rockstar/<program>.rock
+```
+
 ## Shakespeare
 
 Shakespeare programs run with the
@@ -83,6 +91,8 @@ Piet programs are images (`.piet` / `.png`), so they are created, edited, and ru
 with the dedicated VS Code extension rather than a command-line interpreter:
 
 **https://github.com/Galacticica/vscode-piet**
+
+**https://marketplace.visualstudio.com/items?itemName=Galacticica.piet-editor**
 
 Open a `.piet` file with the extension's editor to paint the program, then use
 the built-in runner and step debugger to execute it. See that repository for
